@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="600.0" prefWidth="1200.0" style="-fx-background-color: transparent;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="game.IslandsController">
+   <children>
+      <ImageView fx:id="rock1" fitHeight="150.0" fitWidth="450.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/Islands/largeRocks/largeRock3.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="rock2" fitHeight="200.0" fitWidth="325.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/Islands/medRocks/medRock4.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="rock3" fitHeight="40.0" fitWidth="115.0" pickOnBounds="true">
+         <image>
+            <Image url="@images/Islands/smallRocks/shortRock1.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="rock4" fitHeight="50.0" fitWidth="163.0" pickOnBounds="true">
+         <image>
+            <Image url="@images/Islands/medRocks/medRock4.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="rock5" fitHeight="40.0" fitWidth="75.0" pickOnBounds="true">
+         <image>
+            <Image url="@images/Islands/smallRocks/shortRock1.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

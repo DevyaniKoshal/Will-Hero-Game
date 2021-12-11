@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="600.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="game.GameController">
+   <children>
+      <ImageView fitHeight="600.0" fitWidth="1100.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/bg.jpeg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="pauseButton" fitHeight="53.0" fitWidth="60.0" layoutX="5.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/pause3.png" />
+         </image>
+      </ImageView>
+      <Text fx:id="locationText" fill="WHITE" layoutX="484.0" layoutY="41.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0" textAlignment="CENTER" wrappingWidth="102.23557662963867">
+         <font>
+            <Font name="Luminari" size="36.0" />
+         </font>
+      </Text>
+      <Text fx:id="coinText" fill="WHITE" layoutX="871.0" layoutY="41.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Coins :         " textAlignment="CENTER" wrappingWidth="228.23557662963867">
+         <font>
+            <Font name="Luminari" size="36.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

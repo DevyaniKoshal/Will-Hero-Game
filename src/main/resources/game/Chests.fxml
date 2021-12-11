@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="725.0" style="-fx-background-color: transparent; visibility: transparent;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fx:id="Chest1" fitHeight="45.0" fitWidth="70.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/Chests/chestCoin.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="Chest3" fitHeight="45.0" fitWidth="70.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/Chests/chestWeapon.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="Chest2" fitHeight="45.0" fitWidth="75.0" pickOnBounds="true">
+         <image>
+            <Image url="@images/Chests/openChest.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

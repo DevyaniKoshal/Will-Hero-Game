@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="game.HeroController">
+   <children>
+      <ImageView fx:id="heroNormal" fitHeight="57.0" fitWidth="40.0" pickOnBounds="true">
+         <image>
+            <Image url="@images/Hero/heroNormal.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="70.0" fitWidth="73.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/Hero/heroKnife.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="59.0" fitWidth="114.0" pickOnBounds="true">
+         <image>
+            <Image url="@images/Hero/heroSword.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

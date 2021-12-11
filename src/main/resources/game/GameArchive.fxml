@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.Light.Distant?>
+<?import javafx.scene.effect.Lighting?>
+<?import javafx.scene.effect.Shadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="600.0" prefWidth="1100.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="game.MainButtonsController">
+   <children>
+      <ImageView fitHeight="610.0" fitWidth="1107.0" layoutX="-3.0" layoutY="-1.0" pickOnBounds="true">
+         <image>
+            <Image url="@image/newbg.jpeg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="324.0" fitWidth="373.0" layoutX="55.0" layoutY="181.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@image/Daco_182181.png" />
+         </image>
+      </ImageView>
+      <Text fill="#f5bc16" layoutX="302.0" layoutY="77.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Choose your game">
+         <font>
+            <Font name="Luminari" size="54.0" />
+         </font>
+         <effect>
+            <Lighting diffuseConstant="2.0" specularConstant="1.62">
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+               <light>
+                  <Light.Distant>
+                     <color>
+                        <Color red="1.0" green="0.962978720664978" blue="0.12999999523162842" />
+                     </color>
+                  </Light.Distant>
+               </light>
+            </Lighting>
+         </effect>
+      </Text>
+      <Text fill="#d0ff36" layoutX="482.0" layoutY="170.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Game 1">
+         <font>
+            <Font name="Luminari" size="34.0" />
+         </font>
+         <effect>
+            <Lighting diffuseConstant="2.0" specularConstant="1.62">
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+               <light>
+                  <Light.Distant>
+                     <color>
+                        <Color red="1.0" green="0.3787037134170532" blue="0.1527777761220932" />
+                     </color>
+                  </Light.Distant>
+               </light>
+            </Lighting>
+         </effect>
+      </Text>
+      <Text fill="#d0ff36" layoutX="478.0" layoutY="228.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Game 2">
+         <font>
+            <Font name="Luminari" size="34.0" />
+         </font>
+         <effect>
+            <Lighting diffuseConstant="2.0" specularConstant="1.62">
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+               <light>
+                  <Light.Distant>
+                     <color>
+                        <Color red="1.0" green="0.3787037134170532" blue="0.1527777761220932" />
+                     </color>
+                  </Light.Distant>
+               </light>
+            </Lighting>
+         </effect>
+      </Text>
+      <Text fill="#d0ff36" layoutX="478.0" layoutY="284.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Game 3" wrappingWidth="119.2396998199381">
+         <font>
+            <Font name="Luminari" size="34.0" />
+         </font>
+         <effect>
+            <Lighting diffuseConstant="2.0" specularConstant="1.62">
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+               <light>
+                  <Light.Distant>
+                     <color>
+                        <Color red="1.0" green="0.3787037134170532" blue="0.1527777761220932" />
+                     </color>
+                  </Light.Distant>
+               </light>
+            </Lighting>
+         </effect>
+      </Text>
+      <Text fill="#d0ff36" layoutX="475.0" layoutY="337.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Game 4">
+         <font>
+            <Font name="Luminari" size="34.0" />
+         </font>
+         <effect>
+            <Lighting diffuseConstant="2.0" specularConstant="1.62">
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+               <light>
+                  <Light.Distant>
+                     <color>
+                        <Color red="1.0" green="0.3787037134170532" blue="0.1527777761220932" />
+                     </color>
+                  </Light.Distant>
+               </light>
+            </Lighting>
+         </effect>
+      </Text>
+      <Text fill="#d0ff36" layoutX="480.0" layoutY="391.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Game 5">
+         <font>
+            <Font name="Luminari" size="34.0" />
+         </font>
+         <effect>
+            <Lighting diffuseConstant="2.0" specularConstant="1.62">
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+               <light>
+                  <Light.Distant>
+                     <color>
+                        <Color red="1.0" green="0.3787037134170532" blue="0.1527777761220932" />
+                     </color>
+                  </Light.Distant>
+               </light>
+            </Lighting>
+         </effect>
+      </Text>
+      <ImageView fitHeight="150.0" fitWidth="322.0" layoutX="721.0" layoutY="62.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@image/heroNormal-removebg-preview.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="91.0" fitWidth="66.0" layoutX="837.0" layoutY="357.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@image/redOrc3.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="330.0" fitWidth="573.0" layoutX="531.0" layoutY="279.0" pickOnBounds="true">
+         <image>
+            <Image url="@image/medRock3-removebg-preview.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="220.0" fitWidth="330.0" layoutX="716.0" layoutY="121.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@image/shortRock4-removebg-preview.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

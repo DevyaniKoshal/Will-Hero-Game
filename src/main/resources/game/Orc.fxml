@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="game.OrcController">
+    <children>
+        <ImageView fx:id="greenOrc" fitHeight="45.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@images/Orcs/GreenOrcs/greenOrc1.png" />
+            </image>
+        </ImageView>
+      <ImageView fx:id="redOrc" fitHeight="45.0" fitWidth="45.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/Orcs/RedOrcs/RedOrc1.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="bossOrc" fitHeight="125.0" fitWidth="145.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/Orcs/Boss/Boss2.png" />
+         </image>
+      </ImageView>
+    </children>
+</AnchorPane>
